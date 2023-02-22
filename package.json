@@ -1,0 +1,55 @@
+{
+  "name": "react-three-vite",
+  "description": "A starter template for Threejs in React built with Vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [
+    "r3f",
+    "react",
+    "three",
+    "vite",
+    "starter",
+    "react three fiber",
+    "tailwind",
+    "typescript",
+    "template"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "yarn prettier && yarn eslint",
+    "eslint": "eslint --fix src",
+    "prettier": "prettier --write -l \"./src/**/*.{js,jsx,md,ts,tsx}\""
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.56.25",
+    "@react-three/fiber": "8.9",
+    "npm": "^9.5.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "three": "^0.148.0",
+    "vite-tsconfig-paths": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/three": "^0.149.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-tailwind": "^0.2.1",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-glsl": "^1.1.2"
+  }
+}
