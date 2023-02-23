@@ -2,7 +2,7 @@
 
 A starter template for Threejs in React built with Vite
 
-## What's set up
+## Features
 
 - Ability to display DOM and/or canvas content on pages
 - Basic routing for navigating between pages
@@ -33,3 +33,10 @@ Build application:
 ```sh
 npm run build
 ```
+
+## Performance
+
+![Screenshot of Ligthouse results](https://user-images.githubusercontent.com/14201445/220793871-5d2f526c-1ccf-4569-b650-3ed53f248e0f.png)
+- First Contentful Paint: 1.8 s
+- Time to Interactive: 2.7 s
+- Lighthouse score of 95 (Performance, Accessibility, Best Practices, SEO)
